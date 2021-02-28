@@ -1,0 +1,86 @@
+*,
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  margin: 20px 0;
+  display: block;
+}
+
+.red {
+  background: #eba31d;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+  padding: 0;
+}
+
+.nav-item{
+  position: right;
+  margin: 10px;
+}
+
+.nav-item-home{
+  margin: 10px;
+}
+
+.nav-link:hover {
+  color: #fffb00;
+}
+
+.footer-item h1 {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.dark-background {
+  background: rgb(51, 51, 51);
+  color: #ffffff;
+}
+
+.dark-background a {
+  color: white;
+}
+
+.movie-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.movie-item {
+  width: 25%;
+  list-style: none;
+}
+
+.movie-item .movie-title {
+  color: orange;
+  font-size: 18px;
+  display: block;
+  margin: 10px 0;
+}
+
+.movie-item .btn-primary,
+.movie-item .btn-primary:not(:disabled):not(.disabled):active,
+.movie-item .btn-primary:hover {
+  background: orange;
+  border-color: pink;
+  outline: none;
+}
+
+.movie-item .btn-primary:focus,
+.movie-item .btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem orange;
+}
+
+.movie-item {
+  margin-bottom: 30px;
+}
+
+img {
+  max-width: 100%;
+}
